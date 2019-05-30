@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main() 
+{    
+    printf("Hello, World.\n");
+
+    printf("Welcome to 30 days of code!\n");
+    return 0;
+}
