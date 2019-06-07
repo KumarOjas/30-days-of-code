@@ -1,0 +1,12 @@
+int main() {
+  int n;
+  scanf("%d", &n);
+  int *arr = malloc(sizeof(int) * n);
+  for (int b = 0; b < n; b++) {
+    scanf("%d", &arr[b]);
+  }
+  for (int i = n - 1; i >= 0; i--) {
+    printf("%d ", arr[i]);
+  }
+  return 0;
+}
